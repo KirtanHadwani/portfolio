@@ -37,6 +37,13 @@ import {
   programming,
   sketching,
   music,
+  sport,
+  hiking,
+  woffy,
+  tatvasoft,
+  brainy,
+  chirag,
+  harsh,
 } from "../assets";
 
 export const navLinks = [
@@ -56,16 +63,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Reading",
-    icon: reading,
+    title: "Sports",
+    icon: sport,
   },
   {
     title: "Programming",
     icon: programming,
   },
   {
-    title: "Sketching",
-    icon: sketching,
+    title: "Hiking",
+    icon: hiking,
   },
   {
     title: "Music",
@@ -130,6 +137,46 @@ const technologies = [
 
 const experiences = [
   {
+    title: "React Js Developer",
+    company_name: "TechnoMark Solution LLP",
+    icon: technomark,
+    iconBg: "#E6DEDD",
+    date: "January 2023 - April 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and integrated with backback using Node.js and other related technologies.",
+      "Collaborating with Backend teams including designers and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  
+  {
+    title: "Front-End Developer",
+    company_name: "TatvaSoft",
+    icon: tatvasoft,
+    iconBg: "#383E56",
+    date: "June 2022 - July 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Front-End Developer",
+    company_name: "Brainy Beam",
+    icon: brainy,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "Php Developer",
     company_name: "CreArt Solution",
     icon: creart,
@@ -142,51 +189,13 @@ const experiences = [
       // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Js Developer",
-    company_name: "TechnoMark Solution LLP",
-    icon: technomark,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - April 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and integrated with backback using Node.js and other related technologies.",
-      "Collaborating with Backend teams including designers and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our requirement in backend product, but chirag proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our requirement in backend product, but Kirtan proved me wrong.",
     name: "Arman Ali",
     designation: "Backend Developer",
     company: "Pecific Group Of Companies",
@@ -194,25 +203,25 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Chirag does. and working with him was amazing experience for me",
-    name: "Kirtan Hadwani",
+      "I've never met a web developer who truly cares about their clients' success like Kirtan does. and working with him was amazing experience for me",
+    name: "Chirag Makwana",
     designation: "Font-End Developer",
     company: "TechnoMark Solution LLP",
-    image: kirtanhadwani,
+    image: chirag,
   },
   {
     testimonial:
-      "After Chirag has collabrated with me on out college project our website, our effeciany increased by 50%. We can't thank him enough!",
-    name: "Ronak Rajput",
-    designation: "Software Developer",
-    company: "Simform",
-    image: ronakrajput,
+      "After Kirtan has collabrated with me on out college project our website, our effeciany increased by 50%. We can't thank him enough!",
+    name: "Harsh Dhaduk",
+    designation: "Sinior Software Developer",
+    company: "TechnoMark Solution LLP",
+    image: harsh,
   },
 ];
 
 const projects = [
   {
-    name: " Perfect Match",
+    name: " Woffy The Pet Shop",
     description:
       "Web-based Matrimonial platform that allows users to search about other profiles  and manage their own profile from various interested people to view, providing a convenient and efficient solution for marriage needs.",
     tags: [
@@ -229,8 +238,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: perfectmatch,
-    source_code_link: "https://github.com/Ganpat6070/Team-project",
+    image: woffy  ,
+    source_code_link: "https://github.com/KirtanHadwani/Woffy-The-pet-shop",
   },
   {
     name: "Gallery",
@@ -251,7 +260,7 @@ const projects = [
       },
     ],
     image: gallery,
-    source_code_link: "https://chirag-360.github.io/Gallery/",
+    source_code_link: "https://kirtanhadwani.github.io/Image-Gallery/",
   },
   {
     name: "Desiny + Hotstar",
@@ -272,7 +281,7 @@ const projects = [
       },
     ],
     image: hotstar,
-    source_code_link: "https://chirag-360.github.io/Disney-Hotstar-Clone/",
+    source_code_link: "https://kirtanhadwani.github.io/Hotstar-Disney-Clone/",
   },
 ];
 

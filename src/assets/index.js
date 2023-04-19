@@ -13,6 +13,8 @@ import reading from "./reading.svg"
 import programming from "./programming.svg"
 import sketching from "./sketching.svg"
 import music from "./music.svg"
+import sport from "./sport.svg"
+import hiking from "./hiking.svg"
 
 import perfectmatch from "./perfectmatch.png"
 import css from "./tech/css.png";
@@ -37,16 +39,22 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import technomark from "./company/technomark.jpeg"
+import tatvasoft from "./company/tatvasoft.png"
+import brainy from "./company/brainy.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gallery from "./gallery.png"
 import hotstar from "./hotstar.png"
+import woffy from "./woffy.png"
 
 import armanali from "./people/armanali.jpeg"
 import kirtanhadwani from "./people/kirtanhadwani.jpeg"
 import ronakrajput from "./people/ronakrajput.jpeg"
+import harsh from "./people/harsh.jpeg"
+import chirag from "./people/chirag.jpeg"
+
 export {
   logo,
   backend,
@@ -92,5 +100,11 @@ export {
   programming,
   sketching,
   music,
-
+  sport,
+  hiking,
+  woffy,
+  tatvasoft,
+  brainy,
+  harsh,
+  chirag,
 };
